@@ -192,14 +192,14 @@ header p{
 
 
 
-.right-column{
+.caricatures{
   border-top: solid 1px turquoise;
   background-color: rgb(240,240,240,1);
   padding: 17px;
   padding-top: 19px;
 }
 
-.right-column:hover{
+.caricatures:hover{
   border-top: solid 3px turquoise;
   background-color: rgb(240,240,240,1);
   padding: 17px;
@@ -208,22 +208,22 @@ header p{
 }
 
 
-.right-column h1{
+.caricatures h1{
   font-size: 18px;
 }
 
-.right-column h4{
+.caricatures h4{
   color: turquoise;
 }
 
 
-.right-column .card2 h4{
+.caricatures .card2 h4{
   margin-top: 20px;
   color: black;
 }
 
 
-.right-column img{
+.caricatures img{
   max-width: 100%;
 }
 

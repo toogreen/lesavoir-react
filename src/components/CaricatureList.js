@@ -9,6 +9,7 @@ const CaricatureList = (props) => (
         img={item.img}
         header={item.header}
       />
+
   ))  
 );
 

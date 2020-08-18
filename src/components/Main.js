@@ -62,7 +62,7 @@ class Main extends Component {
 
 						<ArticleList 
 							db={newsDb}
-							col="right"
+							col="middle"
 						/>
 
 					</div>
@@ -72,10 +72,16 @@ class Main extends Component {
 					}
 					<div class="right-column">
 
-						<CaricatureList 
-							data={CaricaturesDb}
-						/>					
+						<div className="caricatures">
+							<CaricatureList 
+								data={CaricaturesDb}
+							/>				
 
+							<ArticleList 
+								db={newsDb}
+								col="right"
+							/>
+						</div>
 					</div>
 				</div>
 
