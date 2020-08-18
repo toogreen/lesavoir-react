@@ -8,7 +8,7 @@ const variables =  [
 	{
 		id: 2,
 		name: "slogan",
-		value:"Les faits, juste les faits"
+		value:"Des faits et opinions, de sources fiables"
 	}
 
 ];

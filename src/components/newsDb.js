@@ -2,6 +2,7 @@ const newsDb = [
   {
     id: 1,
     col: "left",
+    header: "",
     title:"Un couvre-visage plus symbolique que sanitaire", 
     desc:"«Si le nombre de décès et de cas ayant justifié la normalisation du couvre-visage sont actuellement si bas, qu’est-ce qui nous permettra de l’enlever ? Si on applique un tel décret en plein été, quand retournerons-nous à la normale ? Devrons-nous porter ad vitam aeternam ce satané chiffon au visage ? Est-ce vraiment ce visage glauque et sinistre que nous désirons proposer aux prochaines générations ? Bref, devons-nous réellement museler la vie pour mieux sauver la mort ? Le questionnement et la pensée critique sont toujours un signe de santé, non de folie.»", 
     url:"https://www.ledevoir.com/opinion/idees/582987/un-couvre-visage-plus-symbolique-que-sanitaire?fbclid=IwAR3IzqsXqN8ZY53fWwcCytU4RTAnt3jmGEFk_0fvYE42t_58hmlJJ0ryZow",
@@ -12,7 +13,7 @@ const newsDb = [
   {
     id: 2,
     col: "middle",
-    header: "Opinion",
+    header: "Mon Opinion",
     title:"La pandémie est finie!", 
     desc:"En regardant les dernières données sur le site de l'INSPQ, pas besoin d'être un génie pour comprendre, que l'épidémie, elle est belle et bien terminée! Regardez bien le graphique des décès (illustré)...", 
     url:"https://www.inspq.qc.ca/covid-19/donnees",

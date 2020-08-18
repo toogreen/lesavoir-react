@@ -8,7 +8,7 @@ function Article(props) {
 				<a id={props.key} href={props.url} target="_blank" rel="noopener noreferrer">
 					<div id={props.key} className={props.classtype}>
 						<h4>{props.header}</h4>
-						<img id={props.key} src={props.img} alt={props.title} />
+						<img id={props.key} src={props.img} alt="" />
 		 				<h1>{props.title}</h1>
 						<h5><strong>Source:</strong> {props.source}</h5>
 						<br />
