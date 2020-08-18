@@ -76,12 +76,11 @@ class Main extends Component {
 							<CaricatureList 
 								data={CaricaturesDb}
 							/>				
-
-							<ArticleList 
-								db={newsDb}
-								col="right"
-							/>
 						</div>
+						<ArticleList 
+							db={newsDb}
+							col="right"
+						/>
 					</div>
 				</div>
 
