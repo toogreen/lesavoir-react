@@ -54,6 +54,8 @@ class Main extends Component {
 					/>
 				</div>
 
+				<Ad />
+
 				<div class="grid">
 
 					{ 
