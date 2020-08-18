@@ -1,8 +1,6 @@
 import React, {Component} from "react"
-import Article from "./Article"
 import CaricatureList from "./CaricatureList"
 import Ad from "./Ad"
-import variables from "./variables"
 import newsDb from "./newsDb"
 import ArticleList from "./ArticleList"
 import CaricaturesDb from "./CaricaturesDb"

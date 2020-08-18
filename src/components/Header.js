@@ -1,6 +1,5 @@
 import React from "react"
 import variables from "./variables"
-import Date from "./Date"
 
 function Header() {
 	return(
