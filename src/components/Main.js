@@ -6,6 +6,7 @@ import variables from "./variables"
 import newsDb from "./newsDb"
 import ArticleList from "./ArticleList"
 import CaricaturesDb from "./CaricaturesDb"
+import Clock from "react-live-clock"
 //import VariablesList from "./VariablesList"
 
 class Main extends Component {
@@ -17,6 +18,7 @@ class Main extends Component {
 		}
 	}
 
+
 	componentDidMount() {
 	//	this.setState({loading: true})
 	//	fetch(newsDb)
@@ -27,20 +29,32 @@ class Main extends Component {
 	//			this.setState({ allMemeImgs: memes })
 	//			console.log(memes[0])
 	//		})
+
 	}
+
 
 	render() {
 
+
 		return(
+
 			<main class="container">
 				
-
-				<Ad />
-
+				<div className="date">
+					<Clock 
+						format={'dddd, MMMM Mo, YYYY'}
+						ticking={true}
+						timezone={'Canada/Montreal'}
+					/>
+				</div>
+				<div className="time">
+					<Clock 
+						format={'h:mm:ssa'}
+						ticking={true}
+					/>
+				</div>
 
 				<div class="grid">
-
-
 
 					{ 
 					// LEFT COLUMN -->

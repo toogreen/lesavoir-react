@@ -103,7 +103,21 @@ header p{
   margin-top: 20px;
 }
 
+.date, .time{
+  position: relative;
+  margin-top: -20px;
+  font-size: 12px
+}
 
+.date{
+  text-align: left;
+  float: left;
+}
+
+.time{
+  text-align: right;
+  float: right; 
+}
 
 .container{
   width: 90%;
