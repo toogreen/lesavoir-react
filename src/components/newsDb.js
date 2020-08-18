@@ -14,7 +14,7 @@ const newsDb = [
     col: "middle",
     header: "Opinion",
     title:"La pandémie est finie!", 
-    desc:"En regardant les dernières données sur le site de l'INSPQ, pas besoin d'être un génie pour comprendre, que l'épidémie, elle est belle et bien terminée! Regardez bien ce graphique...", 
+    desc:"En regardant les dernières données sur le site de l'INSPQ, pas besoin d'être un génie pour comprendre, que l'épidémie, elle est belle et bien terminée! Regardez bien le graphique des décès (illustré)...", 
     url:"https://www.inspq.qc.ca/covid-19/donnees",
     img:"./img/courbe-covid-17-aout.png",
     class:"card1",
