@@ -6,7 +6,7 @@ const CaricaturesDb = [
 	},
 	{
 		id: 2,
-		img: "https://lh3.googleusercontent.com/proxy/3Qe2Aw5r7dhSjszSTdSf1yo81Ia8-CXsUDa-V8fqAJR7dbM4iW-8aSuaWPk6hEBj9VPHTsNBuvgP0wrXGSE8jzlQJas_yzOWWFlZa3Iol3v8rkr9YHSzfVbxdyvvK4XyXBMeRg"
+		img: "https://images.tele.quebec/squat/img/32b60df6-01ea-4b8e-8a33-63282e9e6548/683eda5f-2b4d-4eb3-8e2c-f714d68699ae/1ce3859c-78e3-4e41-9edd-c521c712878b.jpg?ts=1592306342"
 	},
  	{
 		id: 3,
