@@ -145,6 +145,7 @@ header p{
   background-color: rgb(240,240,240,1);
   padding: 19px 17px 17px 17px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .card1 h1{
@@ -259,6 +260,9 @@ footer a{
   .no-mobile {
     display: none;
   }
+  .card1{
+    margin-top: 40px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -270,6 +274,10 @@ footer a{
       display: grid;
       grid-template-columns: 40% 1fr 30%;
     grid-gap:  20px;
+  }
+
+  .card1{
+    margin-top: 0px;
   }
 
   header{
