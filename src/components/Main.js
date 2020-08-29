@@ -5,6 +5,7 @@ import newsDb from "./newsDb"
 import ArticleList from "./ArticleList"
 import CaricaturesDb from "./CaricaturesDb"
 import Clock from "react-live-clock"
+
 //import VariablesList from "./VariablesList"
 
 class Main extends Component {
@@ -12,13 +13,9 @@ class Main extends Component {
 	constructor() {
 		super()
 
-		var today = new Date(),
-            date = today.getFullYear("YYYY") + '-' + (today.getMonth("Mo") + 1) + '-' + today.getDate("dddd");
-
 		
 		this.state = {
 			count: 0,
-			date: date
 		}
 	}
 
@@ -39,22 +36,20 @@ class Main extends Component {
 
 	render() {
 
-
 		return(
 
 			<main class="container">
 				
 				<div className="date">
-					{this.state.date}
-					{/* <Clock 
-						format={'dddd, MMMM Mo, YYYY'}
+					<Clock 
+						format={'dddd, MMMM Do, YYYY'}
 						ticking={true}
 						timezone={'Canada/Montreal'}
-					/> */}
+					/>
 				</div>
 				<div className="time">
 					<Clock 
-						format={'h:mm:ssa'}
+						format={'HH:mm:ssa'}
 						ticking={true}
 					/>
 				</div>
