@@ -104,21 +104,6 @@ header p{
   border-top: solid 1px black;
 }
 
-.left-column .card1 {
-  border-top: solid 1px black;
-  padding-top: 2px;
-}
-
-.left-column .card1:hover {
-  border-top: solid 3px black;
-  filter: sepia(100%);
-  padding-top: 0px;
-}
-
-
-.left-column .card1 img {
-  margin-top: 15px;
-}
 
 .left-column h1{
   font-size: 18px;
@@ -155,25 +140,45 @@ header p{
 }
 
 
-.middle-column .card1 {
+.card1 {
   border-top: solid 1px orange;
   background-color: rgb(240,240,240,1);
   padding: 19px 17px 17px 17px;
   margin-bottom: 20px;
 }
 
-.middle-column .card1 h1{
+.card1 h1{
   font-size: 24px;
 }
 
-.middle-column .card1 h4{
+.card1 h4{
   color: orange;
 }
 
-.middle-column .card1:hover {
+.card1:hover {
   border-top: solid 3px orange;
   padding-top: 17px
 }
+
+
+.left-column .card3 {
+  border-top: solid 1px black;
+  padding-top: 2px;
+}
+
+.left-column .card3:hover {
+  border-top: solid 3px black;
+  filter: sepia(100%);
+  padding-top: 0px;
+}
+
+
+.left-column .card3 img {
+  margin-top: 15px;
+}
+
+
+
 
 .middle-column .card2 h1{
   font-size: 16px;

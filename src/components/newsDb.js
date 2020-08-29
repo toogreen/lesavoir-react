@@ -2,7 +2,7 @@ const newsDb = [
   {
     id: -1,
     col: "left",
-    header: "",
+    header: "COVID-19",
     title:"Coronavirus: un virus mutant moins agressif, selon une étude", 
     desc:"Depuis l’émergence du syndrome respiratoire aigu sévère du coronavirus 2 (SRAS-CoV-2), des chercheurs de partout dans le monde travaillent à cartographier la diversité génétique du virus et pour en identifier les variantes. Une récente étude publiée en ligne sur le site BioEMedicine de The Lancet démontre l’apparition d’un virus mutant devenu moins agressif.", 
     url:"https://journalmetro.com/sante/2506109/coronavirus-un-virus-mutant-mois-agressif-selon-une-etude/?fbclid=IwAR3AMk2fsEzTr3jo9OBxuLScfwwWI6ndS0sXaf_cUrq0yHjiUMBC5B6ld38",
