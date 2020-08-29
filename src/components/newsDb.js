@@ -8,7 +8,7 @@ const newsDb = [
     url:"https://journalmetro.com/sante/2506109/coronavirus-un-virus-mutant-mois-agressif-selon-une-etude/?fbclid=IwAR3AMk2fsEzTr3jo9OBxuLScfwwWI6ndS0sXaf_cUrq0yHjiUMBC5B6ld38",
     img:"https://journalmetro.com/wp-content/uploads/2020/08/GettyImages-1268262084-e1598622249674.jpg?w=860",
     class:"card1",
-    source:"ledevoir.com"
+    source:"journalmetro.com"
   },
   {
     id: 1,
