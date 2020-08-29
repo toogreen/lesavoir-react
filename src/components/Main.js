@@ -49,7 +49,7 @@ class Main extends Component {
 				</div>
 				<div className="time">
 					<Clock 
-						format={'HH:mm:ssa'}
+						format={'HH:mm:ss'}
 						ticking={true}
 					/>
 				</div>
@@ -87,16 +87,16 @@ class Main extends Component {
 						//RIGHT COLUMN 
 					}
 					<div class="right-column">
-
+						<ArticleList 
+							db={newsDb}
+							col="right"
+						/>
 						<div className="caricatures">
 							<CaricatureList 
 								data={CaricaturesDb}
 							/>				
 						</div>
-						<ArticleList 
-							db={newsDb}
-							col="right"
-						/>
+
 					</div>
 				</div>
 

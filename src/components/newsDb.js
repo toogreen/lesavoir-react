@@ -61,8 +61,8 @@ const newsDb = [
     title:"ÇA VA FAIRE",
     desc:"Je ne sais pas pour vous, mais moi, je n’ai pas envie de donner mon nom et encore moins mon numéro de téléphone ou mon adresse de courriel en entrant dans un bar.",
     url:"https://plus.lapresse.ca/screens/45831c1b-341a-4ff5-89f1-acc407d219ca__7C___0.html?utm_content=twitter&utm_source=lpp&utm_medium=referral&utm_campaign=internal+share",
-    img:"",
-    class:"card2",
+    img:"http://plus.lapresse.ca/screens/captures/45831c1b/341a/4ff5/89f1/acc407d219ca_0.jpg",
+    class:"card1",
     source:"lapresse.ca"
   },
   {

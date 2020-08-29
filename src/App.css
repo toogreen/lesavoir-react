@@ -189,14 +189,14 @@ header p{
 
 
 
-.caricatures{
+.caricatures, .right-column .card1{
   border-top: solid 1px turquoise;
   background-color: rgb(240,240,240,1);
   padding: 17px;
   padding-top: 19px;
 }
 
-.caricatures:hover{
+.caricatures:hover,  .right-column .card1:hover{
   border-top: solid 3px turquoise;
   background-color: rgb(240,240,240,1);
   padding: 17px;
@@ -209,8 +209,8 @@ header p{
   font-size: 18px;
 }
 
-.caricatures h4{
-  color: turquoise;
+.caricatures h4, .right-column h4{
+  color: rgb(0, 185, 196)
 }
 
 
