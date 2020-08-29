@@ -26,7 +26,7 @@ const newsDb = [
     col: "middle",
     header: "Mon Opinion",
     title:"La COVID-19 a muté et perdu toute sa virulence.", 
-    desc:"Le Dr. Raoult l’avait prédit, de nouvelles recherches le confirme (voir commentaire), et maintenant en voici la preuve irréfutable. La COVID-19 a muté et est maintenant passé au statut de grippe saisonnière. Peut-on passer à autre chose et revenir à la normale maintenant?", 
+    desc:"Le Dr. Raoult l’avait prédit, de nouvelles recherches le confirme, et maintenant en voici la preuve irréfutable. La COVID-19 a muté et est maintenant passé au statut de grippe saisonnière. Peut-on passer à autre chose et revenir à la normale maintenant?", 
     url:"https://twitter.com/MadPharmacist1/status/1299471277980348416/photo/1",
     img:"https://pbs.twimg.com/media/EgimNFxX0AAuaGN?format=jpg&name=4096x4096",
     class:"card1",
