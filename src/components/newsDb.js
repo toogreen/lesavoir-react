@@ -1,5 +1,16 @@
 const newsDb = [
   {
+    id: -1,
+    col: "left",
+    header: "",
+    title:"Coronavirus: un virus mutant moins agressif, selon une étude", 
+    desc:"Depuis l’émergence du syndrome respiratoire aigu sévère du coronavirus 2 (SRAS-CoV-2), des chercheurs de partout dans le monde travaillent à cartographier la diversité génétique du virus et pour en identifier les variantes. Une récente étude publiée en ligne sur le site BioEMedicine de The Lancet démontre l’apparition d’un virus mutant devenu moins agressif.", 
+    url:"https://journalmetro.com/sante/2506109/coronavirus-un-virus-mutant-mois-agressif-selon-une-etude/?fbclid=IwAR3AMk2fsEzTr3jo9OBxuLScfwwWI6ndS0sXaf_cUrq0yHjiUMBC5B6ld38",
+    img:"https://journalmetro.com/wp-content/uploads/2020/08/GettyImages-1268262084-e1598622249674.jpg?w=860",
+    class:"card1",
+    source:"ledevoir.com"
+  },
+  {
     id: 1,
     col: "left",
     header: "",
@@ -7,19 +18,19 @@ const newsDb = [
     desc:"«Si le nombre de décès et de cas ayant justifié la normalisation du couvre-visage sont actuellement si bas, qu’est-ce qui nous permettra de l’enlever ? Si on applique un tel décret en plein été, quand retournerons-nous à la normale ? Devrons-nous porter ad vitam aeternam ce satané chiffon au visage ? Est-ce vraiment ce visage glauque et sinistre que nous désirons proposer aux prochaines générations ? Bref, devons-nous réellement museler la vie pour mieux sauver la mort ? Le questionnement et la pensée critique sont toujours un signe de santé, non de folie.»", 
     url:"https://www.ledevoir.com/opinion/idees/582987/un-couvre-visage-plus-symbolique-que-sanitaire?fbclid=IwAR3IzqsXqN8ZY53fWwcCytU4RTAnt3jmGEFk_0fvYE42t_58hmlJJ0ryZow",
     img:"https://media2.ledevoir.com/images_galerie/nwd_827899_657629/image.jpg",
-    class:"card1",
+    class:"card2",
     source:"ledevoir.com"
   },
   {
     id: 2,
     col: "middle",
     header: "Mon Opinion",
-    title:"La pandémie est finie!", 
-    desc:"En regardant les dernières données sur le site de l'INSPQ, pas besoin d'être un génie pour comprendre, que l'épidémie, elle est belle et bien terminée! Regardez bien le graphique des décès (illustré)...", 
-    url:"https://www.inspq.qc.ca/covid-19/donnees",
-    img:"https://toogreen.ca/lesavoir/img/courbe-covid-17-aout.png",
+    title:"La COVID-19 a muté et perdu toute sa virulence.", 
+    desc:"Le Dr. Raoult l’avait prédit, de nouvelles recherches le confirme (voir commentaire), et maintenant en voici la preuve irréfutable. La COVID-19 a muté et est maintenant passé au statut de grippe saisonnière. Peut-on passer à autre chose et revenir à la normale maintenant?", 
+    url:"https://twitter.com/MadPharmacist1/status/1299471277980348416/photo/1",
+    img:"https://pbs.twimg.com/media/EgimNFxX0AAuaGN?format=jpg&name=4096x4096",
     class:"card1",
-    source:"inspq.qc.ca"
+    source:"Gouvernement espagnol"
   },
   {
     id: 3,
@@ -45,8 +56,8 @@ const newsDb = [
   },
   {
     id: 5,
-    col: "left",
-    header: "",
+    col: "right",
+    header: "Opinion",
     title:"ÇA VA FAIRE",
     desc:"Je ne sais pas pour vous, mais moi, je n’ai pas envie de donner mon nom et encore moins mon numéro de téléphone ou mon adresse de courriel en entrant dans un bar.",
     url:"https://plus.lapresse.ca/screens/45831c1b-341a-4ff5-89f1-acc407d219ca__7C___0.html?utm_content=twitter&utm_source=lpp&utm_medium=referral&utm_campaign=internal+share",

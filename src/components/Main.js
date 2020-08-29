@@ -11,8 +11,14 @@ class Main extends Component {
 
 	constructor() {
 		super()
+
+		var today = new Date(),
+            date = today.getFullYear("YYYY") + '-' + (today.getMonth("Mo") + 1) + '-' + today.getDate("dddd");
+
+		
 		this.state = {
-			count: 0
+			count: 0,
+			date: date
 		}
 	}
 
@@ -39,11 +45,12 @@ class Main extends Component {
 			<main class="container">
 				
 				<div className="date">
-					<Clock 
+					{this.state.date}
+					{/* <Clock 
 						format={'dddd, MMMM Mo, YYYY'}
 						ticking={true}
 						timezone={'Canada/Montreal'}
-					/>
+					/> */}
 				</div>
 				<div className="time">
 					<Clock 
