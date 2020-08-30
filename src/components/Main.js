@@ -21,11 +21,11 @@ class Main extends Component {
 
 	componentDidMount() {
 		this.setState({loading: true})
-		fetch("http://localhost:3001/newsDb")
+		fetch("https://my-json-server.typicode.com/toogreen/myjsondata/db")
 			.then(response => response.json())
 			.then(response => {
 				
-				const newsDb = response
+				const newsDb = response.newsDb
 
 				this.setState({ NewsData: newsDb })
 				
