@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import CaricatureList from "./CaricatureList"
 import Ad from "./Ad"
-import newsDb from "./newsDb"
+//import newsDb from "./newsDb"
 import ArticleList from "./ArticleList"
 import CaricaturesDb from "./CaricaturesDb"
 import Clock from "react-live-clock"
@@ -12,29 +12,36 @@ class Main extends Component {
 
 	constructor() {
 		super()
-
-		
-		this.state = {
+		this.state = {	
+			NewsData: [],
 			count: 0,
 		}
 	}
 
 
 	componentDidMount() {
-	//	this.setState({loading: true})
-	//	fetch(newsDb)
-	//		.then(response => response.json())
-	//		.then(response => {
-	//			const {memes} = response.data
-	//
-	//			this.setState({ allMemeImgs: memes })
-	//			console.log(memes[0])
-	//		})
+		this.setState({loading: true})
+		fetch("http://localhost:3001/newsDb")
+			.then(response => response.json())
+			.then(response => {
+				
+				const newsDb = response
+
+				this.setState({ NewsData: newsDb })
+				
+				console.log(newsDb[1].col)
+			})
 
 	}
 
+	componentWillUnmount() {
+        // make fetch request
+    }
+
 
 	render() {
+
+		// const test = this.state.NewsData[1]
 
 		return(
 
@@ -44,7 +51,6 @@ class Main extends Component {
 					<Clock 
 						format={'dddd, MMMM Do, YYYY'}
 						ticking={true}
-						timezone={'Canada/Montreal'}
 					/>
 				</div>
 				<div className="time">
@@ -62,9 +68,11 @@ class Main extends Component {
 					// LEFT COLUMN -->
 					}
 					<div class="left-column">
+
+						{/* <h1>{test.title}</h1> */}
 	
 						<ArticleList 
-							db={newsDb}
+							db={this.state.NewsData}
 							col="left"
 						/>
 
@@ -77,10 +85,9 @@ class Main extends Component {
 					<div class="middle-column">
 
 						<ArticleList 
-							db={newsDb}
+							db={this.state.NewsData}
 							col="middle"
 						/>
-
 					</div>
 
 					{
@@ -88,7 +95,7 @@ class Main extends Component {
 					}
 					<div class="right-column">
 						<ArticleList 
-							db={newsDb}
+							db={this.state.NewsData}
 							col="right"
 						/>
 						<div className="caricatures">

@@ -18,7 +18,7 @@ const newsDb = [
     desc:"«Si le nombre de décès et de cas ayant justifié la normalisation du couvre-visage sont actuellement si bas, qu’est-ce qui nous permettra de l’enlever ? Si on applique un tel décret en plein été, quand retournerons-nous à la normale ? Devrons-nous porter ad vitam aeternam ce satané chiffon au visage ? Est-ce vraiment ce visage glauque et sinistre que nous désirons proposer aux prochaines générations ? Bref, devons-nous réellement museler la vie pour mieux sauver la mort ? Le questionnement et la pensée critique sont toujours un signe de santé, non de folie.»", 
     url:"https://www.ledevoir.com/opinion/idees/582987/un-couvre-visage-plus-symbolique-que-sanitaire?fbclid=IwAR3IzqsXqN8ZY53fWwcCytU4RTAnt3jmGEFk_0fvYE42t_58hmlJJ0ryZow",
     img:"https://media2.ledevoir.com/images_galerie/nwd_827899_657629/image.jpg",
-    class:"card2",
+    class:"card3",
     source:"ledevoir.com"
   },
   {

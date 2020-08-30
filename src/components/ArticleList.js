@@ -1,10 +1,11 @@
 import React from 'react';
 import Article from "./Article"
-   
+
+
 const ArticleList = (props) => (
     props.db.filter(item => item.col === props.col).map(item => (
         <Article 
-			   key={item.id} 
+			key={item.id} 
 			header={item.header}
 		   	news={item.news}
 		    title={item.title}
