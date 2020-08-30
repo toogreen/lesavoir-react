@@ -10,6 +10,9 @@ import Clock from "react-live-clock"
 
 class Main extends Component {
 
+	// Interval for refresh of data
+	interval = null;
+	
 	constructor() {
 		super()
 		this.state = {	
@@ -20,12 +23,28 @@ class Main extends Component {
 
 
 	componentDidMount() {
-		this.setState({loading: true})
+		// Every 60 seconds this fetch a new version of the data
+		this.interval = setInterval(this.getData, 60000);
+
+		// Fetch data from getData function lower down
+    	this.getData();
+	}	
+
+	componentWillUnmount() {
+		clearInterval(this.interval);
+	}
+
+
+	getData = () => {
+
+		//fetch("http://localhost:3001/newsDb")
 		fetch("https://my-json-server.typicode.com/toogreen/myjsondata/db")
 			.then(response => response.json())
 			.then(response => {
 				
+				//const newsDb = response
 				const newsDb = response.newsDb
+				
 
 				this.setState({ NewsData: newsDb })
 				
@@ -34,14 +53,9 @@ class Main extends Component {
 
 	}
 
-	componentWillUnmount() {
-        // make fetch request
-    }
 
 
 	render() {
-
-		// const test = this.state.NewsData[1]
 
 		return(
 
