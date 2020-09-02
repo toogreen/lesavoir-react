@@ -3,7 +3,7 @@ import Caricature from "./Caricature"
 
    
 const CaricatureList = (props) => (
-  props.data.map(item => (
+  props.data.filter(item => item.col === props.col).map(item => (
       <Caricature 
       	key={item.id} 
         img={item.img}
