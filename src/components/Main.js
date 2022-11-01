@@ -37,8 +37,8 @@ class Main extends Component {
 
 	getData = () => {
 
-		fetch("localhost:3001/newsDb")
 		//fetch("https://my-json-server.typicode.com/toogreen/myjsondata/db")
+		fetch("http://localhost:3001/newsDb")
 			.then(response => response.json())
 			.then(response => {
 				
