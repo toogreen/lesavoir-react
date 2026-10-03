@@ -36,6 +36,8 @@ class Main extends Component {
 
 
 	getData = () => {
+		//fetch("https://127.0.0.1:8000/newsDb")
+		//fetch("https://my-json-server.typicode.com/toogreen/myjsondata/db")
 		// newsDb is imported from ./newsDb, so load the local data directly.
 		this.setState({ NewsData: newsDb })
 	}
@@ -79,7 +81,7 @@ class Main extends Component {
 
 
 					{ 
-					//MIDDLE COLUMN 
+					//MIDDLE COLUMN log/
 					}
 					<div class="middle-column">
 
