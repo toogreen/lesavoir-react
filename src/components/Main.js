@@ -1,12 +1,12 @@
 import React, {Component} from "react"
 import CaricatureList from "./CaricatureList"
 import Ad from "./Ad"
-//import newsDb from "./newsDb"
+import newsDb from "./newsDb"
 import ArticleList from "./ArticleList"
 import CaricaturesDb from "./CaricaturesDb"
 import Clock from "react-live-clock"
 
-//import VariablesList from "./VariablesList"
+import VariablesList from "./VariablesList"
 
 class Main extends Component {
 
@@ -36,24 +36,9 @@ class Main extends Component {
 
 
 	getData = () => {
-
-		//fetch("http://127.0.0.1:8000/newsDb")
-		fetch("https://my-json-server.typicode.com/toogreen/myjsondata/db")
-			.then(response => response.json())
-			.then(response => {
-				
-				//const newsDb = response
-				const newsDb = response.newsDb
-				
-
-				this.setState({ NewsData: newsDb })
-				
-				console.log(newsDb[1].col)
-			})
-
+		// newsDb is imported from ./newsDb, so load the local data directly.
+		this.setState({ NewsData: newsDb })
 	}
-
-
 
 	render() {
 
