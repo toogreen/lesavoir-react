@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/lesavoir/static/css/main.08f93a7f.css",
+    "main.js": "/lesavoir/static/js/main.ce72fc31.js",
+    "static/media/lesavoir.svg": "/lesavoir/static/media/lesavoir.71a5f4d1f51f4dd5b1ac.svg",
+    "index.html": "/lesavoir/index.html",
+    "main.08f93a7f.css.map": "/lesavoir/static/css/main.08f93a7f.css.map",
+    "main.ce72fc31.js.map": "/lesavoir/static/js/main.ce72fc31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08f93a7f.css",
+    "static/js/main.ce72fc31.js"
+  ]
+}
